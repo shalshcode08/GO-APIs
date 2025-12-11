@@ -8,7 +8,7 @@ type UserStore interface {
 	CreateUser(User) error
 }
 
-type ProductStorte interface {
+type ProductStore interface {
 	GetProducts() ([]Product, error)
 }
 
